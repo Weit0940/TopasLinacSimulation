@@ -7,9 +7,10 @@ includeFile = ../Components/SecondaryCollimators.txt
 includeFile = ../Components/CylinderAirIonChamber.txt
 includeFile = ../Components/WaterPhantom.txt
 
-includeFile = ../Beams/BeamsSequence.txt
+includeFile = ../Beams/TestBeamsSequence.txt
 
 includeFile = ../Parameters/SimulationParameters.txt
+includeFile = ../Parameters/GraphicsParameters.txt
 
 ########################################################## Create World #######################################################
 
