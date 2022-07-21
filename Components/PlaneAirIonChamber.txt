@@ -1,0 +1,44 @@
+
+includeFile = ../Parameters/SimulationParameters.txt
+
+##################################################### Create Plane AirIonChamber ####################################################
+
+s:Tf/ZPlaneAirIonChamber/Function     = "Step"
+dv:Tf/ZPlaneAirIonChamber/Times       = 10 10 20 30 40 50 60 70 80 90 100 ms
+dv:Tf/ZPlaneAirIonChamber/Values      = 10 19.4 19.0 18.7 18.3 18.0 18.3 18.0 17.5 17.0 16.0 cm
+
+b:Ge/PlaneAirIonChamber/Wall1/IsParallel = "True"
+
+s:Ge/PlaneAirIonChamber/Wall1/Parent            = "WaterPhantom"
+s:Ge/PlaneAirIonChamber/Wall1/Type              = "TsCylinder"
+s:Ge/PlaneAirIonChamber/Wall1/Material          = "Graphite"
+
+d:Ge/PlaneAirIonChamber/Wall1/RMax             = 0.5 cm
+d:Ge/PlaneAirIonChamber/Wall1/TransZ           = Tf/ZPlaneAirIonChamber/Value cm
+d:Ge/PlaneAirIonChamber/Wall1/HL               = 0.005 cm
+s:Ge/PlaneAirIonChamber/Wall1/Color            = "Yellow"
+s:Ge/PlaneAirIonChamber/Wall1/DrawingStyle     = "Solid"
+
+b:Ge/PlaneAirIonChamber/Active/IsParallel = "True"
+
+s:Ge/PlaneAirIonChamber/Active/Parent         = "WaterPhantom"
+s:Ge/PlaneAirIonChamber/Active/Type           = "TsCylinder"
+s:Ge/PlaneAirIonChamber/Active/Material       = "Air"
+
+d:Ge/PlaneAirIonChamber/Active/RMax           = 0.5 cm
+d:Ge/PlaneAirIonChamber/Active/HL             = 0.025 cm
+d:Ge/PlaneAirIonChamber/Active/TransZ         = Tf/ZPlaneAirIonChamber/Value - 0.03 cm
+s:Ge/PlaneAirIonChamber/Active/Color          = "Green"
+s:Ge/PlaneAirIonChamber/Active/DrawingStyle   = "Solid"
+
+b:Ge/PlaneAirIonChamber/Wall2/IsParallel = "True"
+
+s:Ge/PlaneAirIonChamber/Wall2/Parent            = "WaterPhantom"
+s:Ge/PlaneAirIonChamber/Wall2/Type              = "TsCylinder"
+s:Ge/PlaneAirIonChamber/Wall2/Material          = "Graphite"
+
+d:Ge/PlaneAirIonChamber/Wall2/RMax             = 0.5 cm
+d:Ge/PlaneAirIonChamber/Wall2/HL               = 0.1 mm
+d:Ge/PlaneAirIonChamber/Wall2/TransZ           = Ge/PlaneAirIonChamber/Active/TransZ - 0.03 cm
+s:Ge/PlaneAirIonChamber/Wall2/Color            = "Yellow"
+s:Ge/PlaneAirIonChamber/Wall2/DrawingStyle     = "Solid"

@@ -1,0 +1,9 @@
+#################################################### Set Simulation Parameters #####################################################
+
+#SAD: Source axis distance (distance from nominal source position to isocenter)
+#in realtà l'ho utilizzo come se fosse l'SSD
+d:Ge/SAD = 100.0 cm   
+
+sv:Ma/Graphite/Components = 1 "Carbon"
+uv:Ma/Graphite/Fractions  = 1 1
+d:Ma/Graphite/Density     = 2.09 g/cm3

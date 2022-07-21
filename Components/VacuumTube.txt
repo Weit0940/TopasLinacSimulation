@@ -1,0 +1,29 @@
+includeFile = ../Parameters/SimulationParameters.txt
+
+############################################################# Create VacuumTube ############################################################
+
+s:Ge/VacuumTube/Parent             = "World"
+s:Ge/VacuumTube/Type               = "TsCylinder"
+s:Ge/VacuumTube/Material           = "G4_Galactic"  #density of 10E-25 g/cm3
+d:Ge/VacuumTube/Rmax               = 5.0 cm 
+d:Ge/VacuumTube/HL                 = 5 cm
+d:Ge/VacuumTube/TransZ             = Ge/SAD + Ge/VacuumTube/HL cm
+s:Ge/VacuumTube/Color              = "Pink"
+
+s:Ge/CoatingTube/Parent             = "World"
+s:Ge/CoatingTube/Type               = "TsCylinder"
+s:Ge/CoatingTube/Material           = "G4_W"
+d:Ge/CoatingTube/RMin               = 5.0 cm 
+d:Ge/CoatingTube/RMax               = 6.0 cm 
+d:Ge/CoatingTube/HL                 = 5 cm
+d:Ge/CoatingTube/TransZ             = Ge/SAD + Ge/CoatingTube/HL cm
+s:Ge/CoatingTube/Color              = "Grey"
+
+s:Ge/Plug/Parent             = "World"
+s:Ge/Plug/Type               = "TsCylinder"
+s:Ge/Plug/Material           = "G4_Ni"
+d:Ge/Plug/RMax               = 5.0 cm 
+d:Ge/Plug/HL                 = 0.001 cm
+d:Ge/Plug/TransZ             = Ge/SAD - Ge/Plug/HL cm
+s:Ge/Plug/Color              = "Orange"
+

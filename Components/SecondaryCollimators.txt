@@ -1,0 +1,41 @@
+includeFile = ../Parameters/SimulationParameters.txt
+
+################################################# SecondaryCollimators #################################################
+
+############ Y Dir
+
+s:Ge/SecondaryCollimators/Y/Parent         = "World"
+s:Ge/SecondaryCollimators/Y/Type           = "TsJaws"
+s:Ge/SecondaryCollimators/Y/Material       = "G4_W"
+s:Ge/SecondaryCollimators/Y/JawTravelAxis  = "Y"
+
+dc:Ge/SecondaryCollimators/Y/PositiveFieldSetting  = 5.0 cm
+dc:Ge/SecondaryCollimators/Y/NegativeFieldSetting  = -5.0 cm
+
+d:Ge/SecondaryCollimators/Y/SAD        	= Ge/SAD cm
+dc:Ge/SecondaryCollimators/Y/SourceToUpstreamSurfaceDistance = Ge/SAD - 60.0 cm   #Distance from beam's source to jaw 
+
+d:Ge/SecondaryCollimators/Y/LX             = 20.0 cm  
+d:Ge/SecondaryCollimators/Y/LY             = 18.0 cm 
+d:Ge/SecondaryCollimators/Y/LZ             = 5.0 cm
+
+s:Ge/SecondaryCollimators/Y/Color           = "Yellow"
+
+############ X Dir
+
+s:Ge/SecondaryCollimators/X/Parent         = "World"
+s:Ge/SecondaryCollimators/X/Type           = "TsJaws"
+s:Ge/SecondaryCollimators/X/Material       = "G4_W"
+s:Ge/SecondaryCollimators/X/JawTravelAxis  = "X"
+
+dc:Ge/SecondaryCollimators/X/PositiveFieldSetting  = 5.0 cm
+dc:Ge/SecondaryCollimators/X/NegativeFieldSetting  = -5.0 cm
+
+d:Ge/SecondaryCollimators/X/SAD        	= Ge/SAD cm
+dc:Ge/SecondaryCollimators/X/SourceToUpstreamSurfaceDistance = Ge/SAD - 55.0 cm   #Distance from beam's source to jaw 
+
+d:Ge/SecondaryCollimators/X/LX             = 20.0 cm  
+d:Ge/SecondaryCollimators/X/LY             = 18.0 cm 
+d:Ge/SecondaryCollimators/X/LZ             = 5.0 cm
+
+s:Ge/SecondaryCollimators/X/Color           = "Yellow"
