@@ -1,29 +1,20 @@
 
 includeFile = ../Configurations/Conf1.txt
 
-############################################# Energy Fluence At WaterPhantom ##################################################
-
-s:Sc/EnergyFluenceAtPhantom/Quantity                   = "EnergyFluence"
-s:Sc/EnergyFluenceAtPhantom/Component                  = "WaterPhantom"
-s:Sc/EnergyFluenceAtPhantom/OutputFile                 = "EnergyFluenceAtPhantom"
-s:Sc/EnergyFluenceAtPhantom/IfOutputFileAlreadyExists  = "Overwrite"
-s:Sc/EnergyFluenceAtPhantom/OutputType                 = "Csv"
-sv:Sc/EnergyFluenceAtPhantom/OnlyIncludeParticlesNamed = 1 "e-"
-
 ###################################################### Dose At WaterPhantom #####################################################
 
 s:Sc/DoseAtWaterPhantom/Quantity                  = "DoseToMedium"
-s:Sc/DoseAtWaterPhantom/Component                 = "WaterPhantom"
-b:Sc/DoseAtWaterPhantom/OutputToConsole           = "TRUE"
+s:Sc/DoseAtWaterPhantom/Component                 = "WaterBox"
 s:Sc/DoseAtWaterPhantom/IfOutputFileAlreadyExists = "Overwrite"
 s:Sc/DoseAtWaterPhantom/OutputType                = "Csv"
 s:Sc/DoseAtWaterPhantom/OutputFile                = "DoseAtPhantom"
+s:Sc/DoseAtWaterPhantom/SplitByTimeFeature        = "BeamsCount"
 
+##################################################### Energy Dep at Water Phantom ####################################################
 
-##################################################### Dose at Cylinder AirIonChamber #############################################
-
-s:Sc/DoseAtCylAirIC/Quantity                  = "DoseToMedium"
-s:Sc/DoseAtCylAirIC/Component                 = "CylAirIonChamber/Active"
-b:Sc/DoseAtCylAirIC/OutputToConsole           = "TRUE"
-s:Sc/DoseAtCylAirIC/IfOutputFileAlreadyExists = "Overwrite"
-s:Sc/DoseAtCylAirIC/SplitByTimeFeature        = "ZCylAirIonChamber"
+s:Sc/EnergyDepAtWaterPhantom/Quantity                  = "EnergyDeposit"
+s:Sc/EnergyDepAtWaterPhantom/Component                 = "WaterBox"
+s:Sc/EnergyDepAtWaterPhantom/IfOutputFileAlreadyExists = "Overwrite"
+s:Sc/EnergyDepAtWaterPhantom/OutputType                = "Csv"
+s:Sc/EnergyDepAtWaterPhantom/OutputFile                = "EnergyDepAtPhantom"
+s:Sc/EnergyDepAtWaterPhantom/SplitByTimeFeature        = "BeamsCount"

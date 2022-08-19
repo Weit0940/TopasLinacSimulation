@@ -5,12 +5,13 @@ includeFile = ../Components/PrimaryCollimators.txt
 includeFile = ../Components/SecondaryCollimators.txt
 
 includeFile = ../Components/PlaneAirIonChamber.txt
-includeFile = ../Components/WaterPhantom.txt
+includeFile = ../Components/WaterBox.txt
 
-includeFile = ../Beams/TestBeamsSequence.txt
+includeFile = ../Beams/MultiBeams_Conv.txt
+#includeFile = ../Beams/MultiBeams_Flash.txt
 
 includeFile = ../Parameters/SimulationParameters.txt
-includeFile = ../Parameters/GraphicsParameters.txt
+#includeFile = ../Parameters/GraphicsParameters.txt
 
 ########################################################## Create World #######################################################
 

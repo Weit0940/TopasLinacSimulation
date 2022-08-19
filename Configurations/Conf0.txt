@@ -4,12 +4,12 @@ includeFile = ../Components/PrimaryScatterFoil.txt
 includeFile = ../Components/PrimaryCollimators.txt
 includeFile = ../Components/SecondaryCollimators.txt
 
-includeFile = ../Components/PlaneAirIonChamber.txt
 includeFile = ../Components/WaterPhantom.txt
 
-includeFile = ../Beams/BeamsSequence.txt
+includeFile = ../Beams/SingleBeam.txt
 
 includeFile = ../Parameters/SimulationParameters.txt
+#includeFile = ../Parameters/GraphicsParameters.txt
 
 ########################################################## Create World #######################################################
 
@@ -19,14 +19,8 @@ d:Ge/World/HLY              = 1.1 m
 d:Ge/World/HLZ              = 1.1 m
 b:Ge/World/Invisible        = "False"
 
-sv:Ph/Default/LayeredMassGeometryWorlds = 3 "PlaneAirIonChamber/Wall1" "PlaneAirIonChamber/Active" "PlaneAirIonChamber/Wall2"
-
-s:Ge/BeamPosition/Parent                    = "World"
+s:Ge/BeamPosition/Parent                     = "World"
 d:Ge/BeamPosition/TransZ                    = Ge/SAD + Ge/VacuumTube/HL cm
-
-d:Tf/TimelineStart           = 0. ms
-d:Tf/TimelineEnd             = 100.0 ms
-i:Tf/NumberOfSequentialTimes = 10
 
 ##################################################### Simulation Settings ###########################################################
 

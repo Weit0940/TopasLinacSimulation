@@ -9,7 +9,7 @@ dv:Tf/ZPlaneAirIonChamber/Values      = 10 19.4 19.0 18.7 18.3 18.0 18.3 18.0 17
 
 b:Ge/PlaneAirIonChamber/Wall1/IsParallel = "True"
 
-s:Ge/PlaneAirIonChamber/Wall1/Parent            = "WaterPhantom"
+s:Ge/PlaneAirIonChamber/Wall1/Parent            = "WaterBox"
 s:Ge/PlaneAirIonChamber/Wall1/Type              = "TsCylinder"
 s:Ge/PlaneAirIonChamber/Wall1/Material          = "Graphite"
 
@@ -21,7 +21,7 @@ s:Ge/PlaneAirIonChamber/Wall1/DrawingStyle     = "Solid"
 
 b:Ge/PlaneAirIonChamber/Active/IsParallel = "True"
 
-s:Ge/PlaneAirIonChamber/Active/Parent         = "WaterPhantom"
+s:Ge/PlaneAirIonChamber/Active/Parent         = "WaterBox"
 s:Ge/PlaneAirIonChamber/Active/Type           = "TsCylinder"
 s:Ge/PlaneAirIonChamber/Active/Material       = "Air"
 
@@ -33,7 +33,7 @@ s:Ge/PlaneAirIonChamber/Active/DrawingStyle   = "Solid"
 
 b:Ge/PlaneAirIonChamber/Wall2/IsParallel = "True"
 
-s:Ge/PlaneAirIonChamber/Wall2/Parent            = "WaterPhantom"
+s:Ge/PlaneAirIonChamber/Wall2/Parent            = "WaterBox"
 s:Ge/PlaneAirIonChamber/Wall2/Type              = "TsCylinder"
 s:Ge/PlaneAirIonChamber/Wall2/Material          = "Graphite"
 

@@ -1,5 +1,5 @@
 
-includeFile = ../Configurations/Conf1.txt
+includeFile = ../Configurations/Conf0.txt
 
 ############################################# Energy Fluence At WaterPhantom ##################################################
 
@@ -14,15 +14,6 @@ sv:Sc/EnergyFluenceAtPhantom/OnlyIncludeParticlesNamed = 1 "e-"
 
 s:Sc/DoseAtWaterPhantom/Quantity                  = "DoseToMedium"
 s:Sc/DoseAtWaterPhantom/Component                 = "WaterPhantom"
-b:Sc/DoseAtWaterPhantom/OutputToConsole           = "TRUE"
 s:Sc/DoseAtWaterPhantom/IfOutputFileAlreadyExists = "Overwrite"
 s:Sc/DoseAtWaterPhantom/OutputType                = "Csv"
 s:Sc/DoseAtWaterPhantom/OutputFile                = "DoseAtPhantom"
-
-##################################################### Dose at Plane AirIonChamber ####################################################
-
-#s:Sc/DoseAtPlaneAirIC/Quantity                  = "DoseToMedium"
-#s:Sc/DoseAtPlaneAirIC/Component                 = "PlaneAirIonChamber/Active"
-#b:Sc/DoseAtPlaneAirIC/OutputToConsole           = "TRUE"
-#s:Sc/DoseAtPlaneAirIC/IfOutputFileAlreadyExists = "Overwrite"
-#s:Sc/DoseAtPlaneAirIC/SplitByTimeFeature        = "ZPlaneAirIonChamber"
