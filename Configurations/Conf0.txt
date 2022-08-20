@@ -5,6 +5,7 @@ includeFile = ../Components/PrimaryCollimators.txt
 includeFile = ../Components/SecondaryCollimators.txt
 
 includeFile = ../Components/WaterPhantom.txt
+#includeFile = ../Components/WaterBox.txt
 
 includeFile = ../Beams/SingleBeam.txt
 
@@ -27,4 +28,4 @@ d:Ge/BeamPosition/TransZ                    = Ge/SAD + Ge/VacuumTube/HL cm
 i:Tf/Verbosity              = 0
 Ts/NumberOfThreads          = 0            #all available threads
 b:Ts/ShowCPUTime            = "True"
-b:Ts/PauseBeforeQuit        = Gr/Enable
+i:Ts/ShowHistoryCountAtInterval = 1000000
