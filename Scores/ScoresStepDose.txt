@@ -1,0 +1,11 @@
+
+includeFile = ../Configurations/Conf1.txt
+
+###################################################### Dose At WaterPhantom #####################################################
+
+s:Sc/DoseAtWaterPhantom/Quantity                  = "DoseToMedium"
+s:Sc/DoseAtWaterPhantom/Component                 = "WaterBox"
+s:Sc/DoseAtWaterPhantom/IfOutputFileAlreadyExists = "Overwrite"
+s:Sc/DoseAtWaterPhantom/OutputType                = "Csv"
+s:Sc/DoseAtWaterPhantom/OutputFile                = "DoseAtPhantom"
+s:Sc/DoseAtWaterPhantom/SplitByTimeFeature        = "BeamsCount"

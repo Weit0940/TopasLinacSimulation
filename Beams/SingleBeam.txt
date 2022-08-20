@@ -7,14 +7,14 @@ s:So/ElectronSource/Type                     = "Beam"
 s:So/ElectronSource/Component                = "BeamPosition"
 s:So/ElectronSource/BeamParticle             = "e-"
 
-d:So/ElectronSource/BeamEnergy               = 6 MeV
-u:So/ElectronSource/BeamEnergySpread         = 5       #deltaE = 0.3MeV
+#d:So/ElectronSource/BeamEnergy               = 6 MeV
+#u:So/ElectronSource/BeamEnergySpread         = 5       #deltaE = 0.3MeV
 
 #d:So/ElectronSource/BeamEnergy               = 10 MeV
 #u:So/ElectronSource/BeamEnergySpread         = 5        #deltaE = 0.5MeV
 
-#d:So/ElectronSource/BeamEnergy               = 18 MeV
-#u:So/ElectronSource/BeamEnergySpread         = 5        #deltaE = 0.9MeV
+d:So/ElectronSource/BeamEnergy               = 18 MeV
+u:So/ElectronSource/BeamEnergySpread         = 5        #deltaE = 0.9MeV
 
 s:So/ElectronSource/BeamPositionDistribution = "Gaussian"
 s:So/ElectronSource/BeamPositionCutoffShape  = "Ellipse"
@@ -25,5 +25,6 @@ d:So/ElectronSource/BeamPositionSpreadY      = 0.6 mm
 
 s:So/ElectronSource/BeamAngularDistribution  = "None"
 
-ic:So/ElectronSource/NumberOfHistoriesInRun = 10000000
+ic:So/ElectronSource/NumberOfHistoriesInRun = 3000000
+#ic:So/ElectronSource/NumberOfHistoriesInRun = 10000000
 #ic:So/ElectronSource/NumberOfHistoriesInRun  = 110000000

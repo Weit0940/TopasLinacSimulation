@@ -1,0 +1,11 @@
+
+includeFile = ../Configurations/Conf2_Cyl.txt
+
+##################################################### Dose at Cylinder AirIonChamber #############################################
+
+s:Sc/DoseAtCylAirIC/Quantity                  = "DoseToMedium"
+s:Sc/DoseAtCylAirIC/Component                 = "CylAirIonChamber/Active"
+s:Sc/DoseAtCylAirIC/IfOutputFileAlreadyExists = "Overwrite"
+s:Sc/DoseAtCylAirIC/OutputType                = "Csv"
+s:Sc/DoseAtCylAirIC/OutputFile                = "DoseAtCylAirIC"
+s:Sc/DoseAtCylAirIC/SplitByTimeFeature        = "ZCylAirIonChamber"

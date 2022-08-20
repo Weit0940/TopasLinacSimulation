@@ -28,4 +28,4 @@ d:Ge/BeamPosition/TransZ                    = Ge/SAD + Ge/VacuumTube/HL cm
 i:Tf/Verbosity              = 0
 Ts/NumberOfThreads          = 0            #all available threads
 b:Ts/ShowCPUTime            = "True"
-i:Ts/ShowHistoryCountAtInterval = 1000000
+i:Ts/ShowHistoryCountAtInterval = 100000
