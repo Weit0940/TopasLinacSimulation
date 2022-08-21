@@ -4,8 +4,8 @@ includeFile = ../Components/PrimaryScatterFoil.txt
 includeFile = ../Components/PrimaryCollimators.txt
 includeFile = ../Components/SecondaryCollimators.txt
 
-includeFile = ../Components/WaterPhantom.txt
-#includeFile = ../Components/WaterBox.txt
+#includeFile = ../Components/WaterPhantom.txt
+includeFile = ../Components/WaterBox.txt
 
 includeFile = ../Beams/SingleBeam.txt
 

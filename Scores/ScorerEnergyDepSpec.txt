@@ -1,0 +1,10 @@
+includeFile = ../Configurations/Conf0.txt
+
+################################################# Scorer Energy Dep Spec ###############################################
+
+s:Sc/EnergyDepAtWaterPhantom/Quantity                  = "EnergyDeposit"
+s:Sc/EnergyDepAtWaterPhantom/Component                 = "WaterBox"
+s:Sc/DoseAtWaterPhantom/OutputFile                     = "EnergyDepSpec"
+i:Sc/EnergyDepAtWaterPhantom/EBins                     = 100
+d:Sc/EnergyDepAtWaterPhantom/EBinMin                   = 0. MeV
+d:Sc/EnergyDepAtWaterPhantom/EBinMax                   = 15. MeV
