@@ -1,0 +1,27 @@
+
+includeFile = ../Configurations/Conf0_PlaneIC.txt
+
+###################################################### Pdd WaterPhantom #####################################################
+
+s:Sc/PddWaterPhantom/Quantity                  = "DoseToMedium"
+s:Sc/PddWaterPhantom/Component                 = "WaterPhantom"
+s:Sc/PddWaterPhantom/IfOutputFileAlreadyExists = "Increment"
+s:Sc/PddWaterPhantom/OutputType                = "Csv"
+s:Sc/PddWaterPhantom/OutputFile                = "Pdd"
+i:Sc/PddWaterPhantom/ZBins                     = 100
+
+##################################################### Dose at Plane AirIonChamber ####################################################
+
+s:Sc/DoseAtPlaneAirIC/Quantity                  = "DoseToMedium"
+s:Sc/DoseAtPlaneAirIC/Component                 = "PlaneAirIonChamber/Active"
+s:Sc/DoseAtPlaneAirIC/IfOutputFileAlreadyExists = "Increment"
+s:Sc/DoseAtPlaneAirIC/OutputType                = "Csv"
+s:Sc/DoseAtPlaneAirIC/OutputFile                = "DosePlaneAirIC"
+
+##################################################### Dose to Water at Plane AirIonChamber ####################################################
+
+s:Sc/DoseToWaterPlaneAirIC/Quantity                  = "DoseToWater"
+s:Sc/DoseToWaterPlaneAirIC/Component                 = "PlaneAirIonChamber/Active"
+s:Sc/DoseToWaterPlaneAirIC/IfOutputFileAlreadyExists = "Increment"
+s:Sc/DoseToWaterPlaneAirIC/OutputType                = "Csv"
+s:Sc/DoseToWaterPlaneAirIC/OutputFile                = "DoseToWaterPlaneAirIC"

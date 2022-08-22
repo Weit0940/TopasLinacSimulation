@@ -3,6 +3,10 @@ includeFile = ../Parameters/SimulationParameters.txt
 
 ##################################################### Create Cylinder AirIonChamber ####################################################
 
+s:Tf/ZCylAirIonChamber/Function     = "Step"
+dv:Tf/ZCylAirIonChamber/Times       = 10 10 20 30 40 50 60 70 80 90 100 ms
+dv:Tf/ZCylAirIonChamber/Values      = 10 19.4 19.0 18.7 18.3 18.0 18.3 18.0 17.5 17.0 16.0 cm
+
 b:Ge/CylAirIonChamber/Electrode/IsParallel = "True"
 
 s:Ge/CylAirIonChamber/Electrode/Parent            = "WaterBox"
@@ -10,7 +14,7 @@ s:Ge/CylAirIonChamber/Electrode/Type              = "TsCylinder"
 s:Ge/CylAirIonChamber/Electrode/Material          = "G4_Al"
 
 d:Ge/CylAirIonChamber/Electrode/RMax             = 0.8 mm
-d:Ge/CylAirIonChamber/Electrode/TransZ           = 18.2 cm # max dose a 7.5MeV
+d:Ge/CylAirIonChamber/Electrode/TransZ           = Tf/ZCylAirIonChamber/Value cm
 d:Ge/CylAirIonChamber/Electrode/HL               = 3.5 mm
 d:Ge/CylAirIonChamber/Electrode/RotX             = 90.0 deg
 s:Ge/CylAirIonChamber/Electrode/Color            = "Grey"
@@ -24,7 +28,7 @@ s:Ge/CylAirIonChamber/Wall/Material          = "Graphite"
 
 d:Ge/CylAirIonChamber/Wall/RMax             = 6.0 mm
 d:Ge/CylAirIonChamber/Wall/RMin             = 4.77 mm
-d:Ge/CylAirIonChamber/Wall/TransZ           = 18.2 cm
+d:Ge/CylAirIonChamber/Wall/TransZ           = Tf/ZCylAirIonChamber/Value cm
 d:Ge/CylAirIonChamber/Wall/HL               = 3.5 mm
 d:Ge/CylAirIonChamber/Wall/RotX             = 90.0 deg
 s:Ge/CylAirIonChamber/Wall/Color            = "Yellow"
@@ -36,7 +40,7 @@ s:Ge/CylAirIonChamber/Active/Parent         = "WaterBox"
 s:Ge/CylAirIonChamber/Active/Type           = "TsCylinder"
 s:Ge/CylAirIonChamber/Active/Material       = "Air"
 
-d:Ge/CylAirIonChamber/Active/TransZ         = 18.2 cm
+d:Ge/CylAirIonChamber/Active/TransZ         = Tf/ZCylAirIonChamber/Value cm
 d:Ge/CylAirIonChamber/Active/RMax           = 4.75 mm
 d:Ge/CylAirIonChamber/Active/RotX           = 90.0 deg
 d:Ge/CylAirIonChamber/Active/HL             = 3.5 mm

@@ -4,11 +4,10 @@ includeFile = ../Components/PrimaryScatterFoil.txt
 includeFile = ../Components/PrimaryCollimators.txt
 includeFile = ../Components/SecondaryCollimators.txt
 
-includeFile = ../Components/PlaneAirIonChamber.txt
-includeFile = ../Components/WaterBox.txt
+includeFile = ../Components/StepPlaneAirIonChamber.txt
+includeFile = ../Components/WaterPhantom.txt
 
-includeFile = ../Beams/MultiBeams_Conv.txt
-#includeFile = ../Beams/MultiBeams_Flash.txt
+includeFile = ../Beams/MultiBeams.txt
 
 includeFile = ../Parameters/SimulationParameters.txt
 #includeFile = ../Parameters/GraphicsParameters.txt

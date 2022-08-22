@@ -1,0 +1,11 @@
+
+includeFile = ../Configurations/Conf0txt
+
+###################################################### Pdd WaterPhantom #####################################################
+
+s:Sc/PddWaterPhantom/Quantity                  = "DoseToMedium"
+s:Sc/PddWaterPhantom/Component                 = "WaterPhantom"
+s:Sc/PddWaterPhantom/IfOutputFileAlreadyExists = "Increment"
+s:Sc/PddWaterPhantom/OutputType                = "Csv"
+s:Sc/PddWaterPhantom/OutputFile                = "Pdd"
+i:Sc/PddWaterPhantom/ZBins                     = 100

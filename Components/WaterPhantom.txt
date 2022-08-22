@@ -13,6 +13,3 @@ d:Ge/WaterPhantom/RotX     = 0.0 deg
 d:Ge/WaterPhantom/RotY     = 0.0 deg
 d:Ge/WaterPhantom/RotZ     = 0.0 deg
 s:Ge/WaterPhantom/Color    = "blue"
-i:Ge/WaterPhantom/XBins    = 100
-i:Ge/WaterPhantom/YBins    = 100
-i:Ge/WaterPhantom/ZBins    = 100
