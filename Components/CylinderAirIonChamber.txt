@@ -5,7 +5,7 @@ includeFile = ../Parameters/SimulationParameters.txt
 
 b:Ge/CylAirIonChamber/Electrode/IsParallel = "True"
 
-s:Ge/CylAirIonChamber/Electrode/Parent            = "WaterBox"
+s:Ge/CylAirIonChamber/Electrode/Parent            = "WaterPhantom"
 s:Ge/CylAirIonChamber/Electrode/Type              = "TsCylinder"
 s:Ge/CylAirIonChamber/Electrode/Material          = "G4_Al"
 
@@ -18,7 +18,7 @@ s:Ge/CylAirIonChamber/Electrode/DrawingStyle     = "Solid"
 
 b:Ge/CylAirIonChamber/Wall/IsParallel = "True"
 
-s:Ge/CylAirIonChamber/Wall/Parent            = "WaterBox"
+s:Ge/CylAirIonChamber/Wall/Parent            = "WaterPhantom"
 s:Ge/CylAirIonChamber/Wall/Type              = "TsCylinder"
 s:Ge/CylAirIonChamber/Wall/Material          = "Graphite"
 
@@ -32,7 +32,7 @@ s:Ge/CylAirIonChamber/Wall/DrawingStyle     = "Solid"
 
 b:Ge/CylAirIonChamber/Active/IsParallel = "True"
 
-s:Ge/CylAirIonChamber/Active/Parent         = "WaterBox"
+s:Ge/CylAirIonChamber/Active/Parent         = "WaterPhantom"
 s:Ge/CylAirIonChamber/Active/Type           = "TsCylinder"
 s:Ge/CylAirIonChamber/Active/Material       = "Air"
 

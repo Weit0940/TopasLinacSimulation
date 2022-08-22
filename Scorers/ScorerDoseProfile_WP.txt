@@ -1,0 +1,12 @@
+
+includeFile = ../Configurations/Conf0.txt
+
+############################################# Energy Fluence At WaterPhantom ##################################################
+
+s:Sc/DoseAtWaterPhantom/Quantity                   = "DoseToMedium"
+s:Sc/DoseAtWaterPhantom/Component                  = "WaterPhantom"
+s:Sc/DoseAtWaterPhantom/OutputFile                 = "DoseProfile"
+s:Sc/DoseAtWaterPhantom/IfOutputFileAlreadyExists  = "Increment"
+s:Sc/DoseAtWaterPhantom/OutputType                 = "Csv"
+i:Sc/DoseAtWaterPhantom/XBins                      = 100
+i:Sc/DoseAtWaterPhantom/YBins                      = 100

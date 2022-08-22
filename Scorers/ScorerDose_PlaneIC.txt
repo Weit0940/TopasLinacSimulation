@@ -1,11 +1,18 @@
 
-includeFile = ../Configurations/Conf2_PlaneIC.txt
+includeFile = ../Configurations/Conf0_PlaneIC.txt
 
 ##################################################### Dose at Plane AirIonChamber ####################################################
 
 s:Sc/DoseAtPlaneAirIC/Quantity                  = "DoseToMedium"
 s:Sc/DoseAtPlaneAirIC/Component                 = "PlaneAirIonChamber/Active"
-s:Sc/DoseAtPlaneAirIC/IfOutputFileAlreadyExists = "Overwrite"
-s:Sc/DoseAtPlaneAirIC/SplitByTimeFeature        = "ZPlaneAirIonChamber"
+s:Sc/DoseAtPlaneAirIC/IfOutputFileAlreadyExists = "Increment"
 s:Sc/DoseAtPlaneAirIC/OutputType                = "Csv"
-s:Sc/DoseAtPlaneAirIC/OutputFile                = "DoseAtPlaneAirIC"
+s:Sc/DoseAtPlaneAirIC/OutputFile                = "DosePlaneAirIC"
+
+##################################################### Dose to Water at Plane AirIonChamber ####################################################
+
+s:Sc/DoseToWaterPlaneAirIC/Quantity                  = "DoseToWater"
+s:Sc/DoseToWaterPlaneAirIC/Component                 = "PlaneAirIonChamber/Active"
+s:Sc/DoseToWaterPlaneAirIC/IfOutputFileAlreadyExists = "Increment"
+s:Sc/DoseToWaterPlaneAirIC/OutputType                = "Csv"
+s:Sc/DoseToWaterPlaneAirIC/OutputFile                = "DoseToWaterPlaneAirIC"
