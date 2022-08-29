@@ -34,3 +34,4 @@ i:Tf/NumberOfSequentialTimes = 10
 i:Tf/Verbosity              = 0
 Ts/NumberOfThreads          = 0            #all available threads
 b:Ts/ShowCPUTime            = "True"
+i:Ts/ShowHistoryCountAtInterval = 100000
