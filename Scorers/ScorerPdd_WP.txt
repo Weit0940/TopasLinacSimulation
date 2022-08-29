@@ -1,5 +1,5 @@
 
-includeFile = ../Configurations/Conf0txt
+includeFile = ../Configurations/Conf0.txt
 
 ###################################################### Pdd WaterPhantom #####################################################
 
