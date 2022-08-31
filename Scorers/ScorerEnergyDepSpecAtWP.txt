@@ -2,10 +2,10 @@ includeFile = ../Configurations/ConfNoIC.txt
 
 ################################################# Scorer Energy Dep Spec ###############################################
 
-s:Sc/EnergyDepAtWaterPhantom/Component        = "WaterBox"
+s:Sc/EnergyDepAtWaterPhantom/Component        = "WaterPhantom"
 s:Sc/EnergyDepAtWaterPhantom/OutputFile       = "EnergyDepSpec"
 s:Sc/EnergyDepAtWaterPhantom/Quantity         = "EnergyDeposit"
-s:Sc/EnergyDepAtWaterPhantom/OutputType            = "Csv"
+s:Sc/EnergyDepAtWaterPhantom/OutputType       = "Csv"
 i:Sc/EnergyDepAtWaterPhantom/EBins            = 100
 d:Sc/EnergyDepAtWaterPhantom/EBinMin          = 0. MeV
 d:Sc/EnergyDepAtWaterPhantom/EBinMax          = 15. MeV

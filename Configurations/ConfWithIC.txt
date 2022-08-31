@@ -17,8 +17,6 @@ d:Ge/World/HLY              = 1.1 m
 d:Ge/World/HLZ              = 1.1 m
 b:Ge/World/Invisible        = "False"
 
-sv:Ph/Default/LayeredMassGeometryWorlds = 3 "CylAirIonChamber/Wall" "CylAirIonChamber/Active" "CylAirIonChamber/Electrode"
-
 s:Ge/BeamPosition/Parent    = "World"
 d:Ge/BeamPosition/TransZ    = Ge/SAD + Ge/VacuumTube/HL cm
 
@@ -34,8 +32,11 @@ i:Ts/ShowHistoryCountAtInterval = 100000
 #includeFile = ../Components/PlaneAirIonChamber.txt
 #includeFile = ../Components/CylinderAirIonChamber.txt
 
-#includeFile = ../Components/StepPlaneAirIonChamber.txt
-includeFile = ../Components/StepCylinderAirIonChamber.txt
+includeFile = ../Components/StepPlaneAirIonChamber.txt
+#includeFile = ../Components/StepCylinderAirIonChamber.txt
+
+sv:Ph/Default/LayeredMassGeometryWorlds = 3 "PlaneAirIonChamber/Wall1" "PlaneAirIonChamber/Active" "PlaneAirIonChamber/Wall2"
+#sv:Ph/Default/LayeredMassGeometryWorlds = 3 "CylAirIonChamber/Wall" "CylAirIonChamber/Active" "CylAirIonChamber/Electrode"
 
 #includeFile = ../Beams/SingleBeam.txt
 includeFile = ../Beams/MultiBeams.txt
