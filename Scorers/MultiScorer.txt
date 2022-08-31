@@ -3,29 +3,29 @@ includeFile = ../Configurations/ConfWithPlaneIC.txt
 
 ###################################################### Pdd WaterPhantom #####################################################
 
-s:Sc/PddWaterPhantom/Quantity                  = "DoseToMedium"
-s:Sc/PddWaterPhantom/Component                 = "WaterPhantom"
-s:Sc/PddWaterPhantom/IfOutputFileAlreadyExists = "Increment"
-s:Sc/PddWaterPhantom/OutputType                = "Csv"
-s:Sc/PddWaterPhantom/OutputFile                = "Pdd"
-i:Sc/PddWaterPhantom/ZBins                     = 100
+s:Sc/PddWaterAtPhantom/Quantity                  = "DoseToMedium"
+s:Sc/PddWaterAtPhantom/Component                 = "WaterPhantom"
+s:Sc/PddWaterAtPhantom/IfOutputFileAlreadyExists = "Increment"
+s:Sc/PddWaterAtPhantom/OutputType                = "Csv"
+s:Sc/PddWaterAtPhantom/OutputFile                = "PddWaterAtPhantom"
+i:Sc/PddWaterAtPhantom/ZBins                     = 100
 
 ###################################################### Dose Profile WaterPhantom #####################################################
 
-s:Sc/PddWaterPhantom/Quantity                  = "DoseToMedium"
-s:Sc/PddWaterPhantom/Component                 = "WaterPhantom"
-s:Sc/PddWaterPhantom/IfOutputFileAlreadyExists = "Increment"
-s:Sc/PddWaterPhantom/OutputType                = "Csv"
-s:Sc/PddWaterPhantom/OutputFile                = "DoseProfile"
-i:Sc/PddWaterPhantom/XBins                     = 100
-i:Sc/PddWaterPhantom/YBins                     = 100
+s:Sc/DoseProfileAtWaterPhantom/Quantity                   = "DoseToMedium"
+s:Sc/DoseProfileAtWaterPhantom/Component                  = "WaterPhantom"
+s:Sc/DoseProfileAtWaterPhantom/OutputFile                 = "DoseProfileAtWaterPhantom"
+s:Sc/DoseProfileAtWaterPhantom/IfOutputFileAlreadyExists  = "Increment"
+s:Sc/DoseProfileAtWaterPhantom/OutputType                 = "Csv"
+i:Sc/DoseProfileAtWaterPhantom/XBins                      = 100
+i:Sc/DoseProfileAtWaterPhantom/YBins                      = 100
 
 ################################################# Scorer Energy Dep Spec ###############################################
 
 s:Sc/EnergyDepAtWaterPhantom/Component        = "WaterBox"
 s:Sc/EnergyDepAtWaterPhantom/OutputFile       = "EnergyDepSpec"
 s:Sc/EnergyDepAtWaterPhantom/Quantity         = "EnergyDeposit"
-s:Sc/DoseAtWaterPhantom/OutputType            = "Csv"
+s:Sc/EnergyDepAtWaterPhantom/OutputType            = "Csv"
 i:Sc/EnergyDepAtWaterPhantom/EBins            = 100
 d:Sc/EnergyDepAtWaterPhantom/EBinMin          = 0. MeV
 d:Sc/EnergyDepAtWaterPhantom/EBinMax          = 15. MeV

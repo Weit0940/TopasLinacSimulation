@@ -3,9 +3,9 @@ includeFile = ../Configurations/ConfNoIC.txt
 
 ###################################################### Pdd WaterPhantom #####################################################
 
-s:Sc/PddWaterPhantom/Quantity                  = "DoseToMedium"
-s:Sc/PddWaterPhantom/Component                 = "WaterPhantom"
-s:Sc/PddWaterPhantom/IfOutputFileAlreadyExists = "Increment"
-s:Sc/PddWaterPhantom/OutputType                = "Csv"
-s:Sc/PddWaterPhantom/OutputFile                = "Pdd"
-i:Sc/PddWaterPhantom/ZBins                     = 100
+s:Sc/PddAtWaterPhantom/Quantity                  = "DoseToMedium"
+s:Sc/PddAtWaterPhantom/Component                 = "WaterPhantom"
+s:Sc/PddAtWaterPhantom/IfOutputFileAlreadyExists = "Increment"
+s:Sc/PddAtWaterPhantom/OutputType                = "Csv"
+s:Sc/PddAtWaterPhantom/OutputFile                = "PddAtWaterPhantom"
+i:Sc/PddAtWaterPhantom/ZBins                     = 100

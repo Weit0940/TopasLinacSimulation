@@ -1,12 +1,12 @@
 
 includeFile = ../Configurations/ConfNoIC.txt
 
-############################################# Energy Fluence At WaterPhantom ##################################################
+###################################################### Dose Profile WaterPhantom #####################################################
 
-s:Sc/DoseAtWaterPhantom/Quantity                   = "DoseToMedium"
-s:Sc/DoseAtWaterPhantom/Component                  = "WaterPhantom"
-s:Sc/DoseAtWaterPhantom/OutputFile                 = "DoseProfile"
-s:Sc/DoseAtWaterPhantom/IfOutputFileAlreadyExists  = "Increment"
-s:Sc/DoseAtWaterPhantom/OutputType                 = "Csv"
-i:Sc/DoseAtWaterPhantom/XBins                      = 100
-i:Sc/DoseAtWaterPhantom/YBins                      = 100
+s:Sc/DoseProfileAtWaterPhantom/Quantity                   = "DoseToMedium"
+s:Sc/DoseProfileAtWaterPhantom/Component                  = "WaterPhantom"
+s:Sc/DoseProfileAtWaterPhantom/OutputFile                 = "DoseProfileAtWaterPhantom"
+s:Sc/DoseProfileAtWaterPhantom/IfOutputFileAlreadyExists  = "Increment"
+s:Sc/DoseProfileAtWaterPhantom/OutputType                 = "Csv"
+i:Sc/DoseProfileAtWaterPhantom/XBins                      = 100
+i:Sc/DoseProfileAtWaterPhantom/YBins                      = 100
