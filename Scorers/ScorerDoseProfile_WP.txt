@@ -1,5 +1,5 @@
 
-includeFile = ../Configurations/Conf0.txt
+includeFile = ../Configurations/ConfNoIC.txt
 
 ############################################# Energy Fluence At WaterPhantom ##################################################
 

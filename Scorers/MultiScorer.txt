@@ -1,0 +1,30 @@
+
+includeFile = ../Configurations/ConfWithPlaneIC.txt
+
+###################################################### Pdd WaterPhantom #####################################################
+
+s:Sc/PddWaterPhantom/Quantity                  = "DoseToMedium"
+s:Sc/PddWaterPhantom/Component                 = "WaterPhantom"
+s:Sc/PddWaterPhantom/IfOutputFileAlreadyExists = "Increment"
+s:Sc/PddWaterPhantom/OutputType                = "Csv"
+s:Sc/PddWaterPhantom/OutputFile                = "Pdd"
+i:Sc/PddWaterPhantom/ZBins                     = 100
+
+###################################################### Dose Profile WaterPhantom #####################################################
+
+s:Sc/PddWaterPhantom/Quantity                  = "DoseToMedium"
+s:Sc/PddWaterPhantom/Component                 = "WaterPhantom"
+s:Sc/PddWaterPhantom/IfOutputFileAlreadyExists = "Increment"
+s:Sc/PddWaterPhantom/OutputType                = "Csv"
+s:Sc/PddWaterPhantom/OutputFile                = "DoseProfile"
+i:Sc/PddWaterPhantom/XBins                     = 100
+i:Sc/PddWaterPhantom/YBins                     = 100
+
+##################################################### Dose to Water at Plane AirIonChamber ####################################################
+
+s:Sc/DoseToWaterAtPlaneAirIC/Quantity                  = "DoseToMedium"
+s:Sc/DoseToWaterAtPlaneAirIC/Component                 = "PlaneAirIonChamber/Active"
+s:Sc/DoseToWaterAtPlaneAirIC/IfOutputFileAlreadyExists = "Overwrite"
+s:Sc/DoseToWaterAtPlaneAirIC/SplitByTimeFeature        = "ZPlaneAirIonChamber"
+s:Sc/DoseToWaterAtPlaneAirIC/OutputType                = "Csv"
+s:Sc/DoseToWaterAtPlaneAirIC/OutputFile                = "DoseToWaterAtPlaneAirIC"

@@ -1,4 +1,4 @@
-includeFile = ../Configurations/Conf0.txt
+includeFile = ../Configurations/ConfNoIC.txt
 
 ################################################# Scorer Energy Dep Spec ###############################################
 
