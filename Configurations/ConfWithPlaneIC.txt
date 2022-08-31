@@ -31,12 +31,12 @@ i:Ts/ShowHistoryCountAtInterval = 100000
 
 ##################################################### In case of MultiBeam Source #####################################################
 
-includeFile = ../Components/PlaneAirIonChamber.txt
-includeFile = ../Beams/SingleBeam.txt
+#includeFile = ../Components/PlaneAirIonChamber.txt
+#includeFile = ../Beams/SingleBeam.txt
 
-#includeFile = ../Components/StepPlaneAirIonChamber.txt
-#includeFile = ../Beams/MultiBeams.txt
+includeFile = ../Components/StepPlaneAirIonChamber.txt
+includeFile = ../Beams/MultiBeams.txt
 
-#d:Tf/TimelineStart           = 0. ms
-#d:Tf/TimelineEnd             = 100.0 ms
-#i:Tf/NumberOfSequentialTimes = 10
+d:Tf/TimelineStart           = 0. ms
+d:Tf/TimelineEnd             = 120.0 ms
+i:Tf/NumberOfSequentialTimes = 10
