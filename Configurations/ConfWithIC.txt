@@ -17,10 +17,10 @@ d:Ge/World/HLY              = 1.1 m
 d:Ge/World/HLZ              = 1.1 m
 b:Ge/World/Invisible        = "False"
 
+sv:Ph/Default/LayeredMassGeometryWorlds = 3 "CylAirIonChamber/Wall" "CylAirIonChamber/Active" "CylAirIonChamber/Electrode"
+
 s:Ge/BeamPosition/Parent    = "World"
 d:Ge/BeamPosition/TransZ    = Ge/SAD + Ge/VacuumTube/HL cm
-
-sv:Ph/Default/LayeredMassGeometryWorlds = 3 "PlaneAirIonChamber/Wall1" "PlaneAirIonChamber/Active" "PlaneAirIonChamber/Wall2"
 
 ##################################################### Simulation Settings ###########################################################
 
@@ -29,14 +29,17 @@ Ts/NumberOfThreads          = 0            #all available threads
 b:Ts/ShowCPUTime            = "True"
 i:Ts/ShowHistoryCountAtInterval = 100000
 
-##################################################### In case of MultiBeam Source #####################################################
+##################################################### Set Beam and Ion Chamber #####################################################
 
 #includeFile = ../Components/PlaneAirIonChamber.txt
-#includeFile = ../Beams/SingleBeam.txt
+#includeFile = ../Components/CylinderAirIonChamber.txt
 
-includeFile = ../Components/StepPlaneAirIonChamber.txt
+#includeFile = ../Components/StepPlaneAirIonChamber.txt
+includeFile = ../Components/StepCylinderAirIonChamber.txt
+
+#includeFile = ../Beams/SingleBeam.txt
 includeFile = ../Beams/MultiBeams.txt
 
 d:Tf/TimelineStart           = 0. ms
-d:Tf/TimelineEnd             = 120.0 ms
+d:Tf/TimelineEnd             = 110.0 ms
 i:Tf/NumberOfSequentialTimes = 10

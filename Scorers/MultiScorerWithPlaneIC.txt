@@ -1,5 +1,5 @@
 
-includeFile = ../Configurations/ConfWithPlaneIC.txt
+includeFile = ../Configurations/ConfWithIC.txt
 
 ###################################################### Pdd WaterPhantom #####################################################
 

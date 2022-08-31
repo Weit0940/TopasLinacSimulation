@@ -1,5 +1,5 @@
 
-includeFile = ../Configurations/ConfWithCyIC.txt
+includeFile = ../Configurations/ConfWithIC.txt
 
 ##################################################### Dose at Cylinder AirIonChamber #############################################
 

@@ -1,5 +1,5 @@
 
-includeFile = ../Configurations/ConfWithPlaneIC.txt
+includeFile = ../Configurations/ConfWithIC.txt
 
 ##################################################### Dose at Plane AirIonChamber ####################################################
 
@@ -18,12 +18,3 @@ s:Sc/DoseToWaterAtPlaneAirIC/IfOutputFileAlreadyExists = "Overwrite"
 s:Sc/DoseToWaterAtPlaneAirIC/SplitByTimeFeature        = "ZPlaneAirIonChamber"
 s:Sc/DoseToWaterAtPlaneAirIC/OutputType                = "Csv"
 s:Sc/DoseToWaterAtPlaneAirIC/OutputFile                = "DoseToWaterAtPlaneAirIC"
-
-###################################################### Pdd WaterPhantom #####################################################
-
-s:Sc/PddWaterPhantom/Quantity                  = "DoseToMedium"
-s:Sc/PddWaterPhantom/Component                 = "WaterPhantom"
-s:Sc/PddWaterPhantom/IfOutputFileAlreadyExists = "Increment"
-s:Sc/PddWaterPhantom/OutputType                = "Csv"
-s:Sc/PddWaterPhantom/OutputFile                = "Pdd"
-i:Sc/PddWaterPhantom/ZBins                     = 100
