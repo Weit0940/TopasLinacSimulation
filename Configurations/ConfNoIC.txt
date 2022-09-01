@@ -19,6 +19,16 @@ d:Ge/World/HLY              = 1.1 m
 d:Ge/World/HLZ              = 1.1 m
 b:Ge/World/Invisible        = "False"
 
+s:Ge/Isocenter/Parent = "World"
+s:Ge/Isocenter/Type   = "TsBox"
+s:Ge/Isocenter/Material = "Air"
+d:Ge/Isocenter/HLX      = 30 cm 
+d:Ge/Isocenter/HLY      = 30 cm 
+d:Ge/Isocenter/HLZ      = 0.05 cm
+d:Ge/Isocenter/TransZ   = 0.1 cm 
+s:Ge/Isocenter/DrawingStyle = "Solid"
+s:Ge/Isocenter/Color = "Yellow"
+
 s:Ge/BeamPosition/Parent    = "World"
 d:Ge/BeamPosition/TransZ    = Ge/SAD + Ge/VacuumTube/HL cm
 
