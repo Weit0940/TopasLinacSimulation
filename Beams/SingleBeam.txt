@@ -34,4 +34,4 @@ d:So/ElectronSource/BeamPositionSpreadY      = 0.6 mm
 
 s:So/ElectronSource/BeamAngularDistribution  = "None"
 
-ic:So/ElectronSource/NumberOfHistoriesInRun = 2000000
+ic:So/ElectronSource/NumberOfHistoriesInRun = 3000000
