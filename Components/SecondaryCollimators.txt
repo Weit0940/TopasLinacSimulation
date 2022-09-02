@@ -13,7 +13,7 @@ dc:Ge/SecondaryCollimators/Y/PositiveFieldSetting  = 5.0 cm
 dc:Ge/SecondaryCollimators/Y/NegativeFieldSetting  = -5.0 cm
 
 d:Ge/SecondaryCollimators/Y/SAD        	= Ge/SAD cm
-dc:Ge/SecondaryCollimators/Y/SourceToUpstreamSurfaceDistance = Ge/SAD - 60.0 cm   #Distance from beam's source to jaw 
+dc:Ge/SecondaryCollimators/Y/SourceToUpstreamSurfaceDistance = Ge/SAD - 61.0 cm   #Distance from beam's source to jaw 
 
 d:Ge/SecondaryCollimators/Y/LX             = 20.0 cm  
 d:Ge/SecondaryCollimators/Y/LY             = 18.0 cm 
