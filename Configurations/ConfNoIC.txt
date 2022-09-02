@@ -9,7 +9,7 @@ includeFile = ../Components/WaterPhantom.txt
 includeFile = ../Beams/SingleBeam.txt
 
 includeFile = ../Parameters/SimulationParameters.txt
-#includeFile = ../Parameters/GraphicsParameters.txt
+includeFile = ../Parameters/GraphicsParameters.txt
 
 ########################################################## Create World #######################################################
 
