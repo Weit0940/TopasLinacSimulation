@@ -19,7 +19,7 @@ s:Sc/EnergyFluenceAtIsocenter/Quantity                  = "EnergyFluence"
 s:Sc/EnergyFluenceAtIsocenter/Component                 = "Isocenter"
 s:Sc/EnergyFluenceAtIsocenter/IfOutputFileAlreadyExists = "Increment"
 s:Sc/EnergyFluenceAtIsocenter/OutputType                = "Csv"
-s:Sc/EnergyFluenceAtIsocenter/OutputFile                = "EnergyFluenceAtWaterPhantom"
+s:Sc/EnergyFluenceAtIsocenter/OutputFile                = "EnergyFluenceAtIsocenter"
 i:Sc/EnergyFluenceAtIsocenter/XBins                     = 60
 i:Sc/EnergyFluenceAtIsocenter/YBins                     = 60
 
