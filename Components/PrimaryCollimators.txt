@@ -11,7 +11,7 @@ dc:Ge/PrimaryCollimators/PositiveFieldSetting  = 5.0 cm
 dc:Ge/PrimaryCollimators/NegativeFieldSetting  = -5.0 cm
 
 d:Ge/PrimaryCollimators/SAD        	= Ge/SAD cm
-dc:Ge/PrimaryCollimators/SourceToUpstreamSurfaceDistance = Ge/SAD cm #- 90.0 cm   #Distance from beam's source to jaw 
+dc:Ge/PrimaryCollimators/SourceToUpstreamSurfaceDistance = Ge/SAD - 90.0 cm   #Distance from beam's source to jaw 
 
 d:Ge/PrimaryCollimators/LX             = 20.0 cm  
 d:Ge/PrimaryCollimators/LY             = 18.0 cm 
