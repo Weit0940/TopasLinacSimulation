@@ -2,9 +2,9 @@ includeFile = ../Components/VacuumTube.txt
 includeFile = ../Components/PrimaryScatterFoil.txt
 
 includeFile = ../Components/PrimaryCollimators.txt
-#includeFile = ../Components/SecondaryCollimators.txt
+includeFile = ../Components/SecondaryCollimators.txt
 
-#includeFile = ../Components/WaterPhantom.txt
+includeFile = ../Components/WaterPhantom.txt
 
 includeFile = ../Beams/SingleBeam.txt
 
@@ -31,6 +31,7 @@ b:Ge/World/Invisible        = "False"
 
 s:Ge/BeamPosition/Parent    = "World"
 d:Ge/BeamPosition/TransZ    = Ge/SAD + Ge/VacuumTube/HL cm
+b:Ge/QuitIfOverlapDetected = False
 
 ##################################################### Simulation Settings ###########################################################
 
