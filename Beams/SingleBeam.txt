@@ -19,8 +19,14 @@ s:So/ElectronSource/BeamParticle             = "e-"
 #d:So/ElectronSource/BeamEnergy               = 7.5 MeV
 #u:So/ElectronSource/BeamEnergySpread         = 5   
 
-d:So/ElectronSource/BeamEnergy               = 10 MeV
-u:So/ElectronSource/BeamEnergySpread         = 5        #deltaE = 0.5MeV
+#d:So/ElectronSource/BeamEnergy               = 10 MeV
+#u:So/ElectronSource/BeamEnergySpread         = 5        #deltaE = 0.5MeV
+
+d:So/ElectronSource/BeamEnergy               = 12 MeV
+u:So/ElectronSource/BeamEnergySpread         = 5        
+
+#d:So/ElectronSource/BeamEnergy               = 15 MeV
+#u:So/ElectronSource/BeamEnergySpread         = 5       
 
 #d:So/ElectronSource/BeamEnergy               = 18 MeV
 #u:So/ElectronSource/BeamEnergySpread         = 5        #deltaE = 0.9MeV

@@ -33,4 +33,4 @@ s:Sc/EnergyDepSpectAtWaterPhantom/IfOutputFileAlreadyExists = "Increment"
 s:Sc/EnergyDepSpectAtWaterPhantom/OutputType       = "Csv"
 i:Sc/EnergyDepSpectAtWaterPhantom/EBins            = 100
 d:Sc/EnergyDepSpectAtWaterPhantom/EBinMin          = 0. MeV
-d:Sc/EnergyDepSpectAtWaterPhantom/EBinMax          = 15. MeV
+d:Sc/EnergyDepSpectAtWaterPhantom/EBinMax          = 24. MeV
