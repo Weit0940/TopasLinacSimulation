@@ -9,7 +9,7 @@ includeFile = ../Components/WaterPhantom.txt
 includeFile = ../Beams/SingleBeam.txt
 
 includeFile = ../Parameters/SimulationParameters.txt
-includeFile = ../Parameters/GraphicsParameters.txt
+#includeFile = ../Parameters/GraphicsParameters.txt
 
 ########################################################## Create World #######################################################
 
@@ -39,4 +39,4 @@ i:Tf/Verbosity              = 0
 Ts/NumberOfThreads          = 0            #all available threads
 b:Ts/ShowCPUTime            = "True"
 i:Ts/ShowHistoryCountAtInterval = 100000
-b:Ts/PauseBeforeQuit = "True" # Pause for Geant4 commands before quitting
+#b:Ts/PauseBeforeQuit = "True" # Pause for Geant4 commands before quitting
