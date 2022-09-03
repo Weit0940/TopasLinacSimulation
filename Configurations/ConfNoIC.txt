@@ -39,3 +39,4 @@ i:Tf/Verbosity              = 0
 Ts/NumberOfThreads          = 0            #all available threads
 b:Ts/ShowCPUTime            = "True"
 i:Ts/ShowHistoryCountAtInterval = 100000
+b:Ts/PauseBeforeQuit = "True" # Pause for Geant4 commands before quitting
