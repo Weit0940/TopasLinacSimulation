@@ -1,5 +1,5 @@
 
-includeFile = ../Configurations/ConfWithIC.txt
+includeFile = ../Configurations/MainConf.txt
 
 ##################################################### Dose at Plane AirIonChamber ####################################################
 

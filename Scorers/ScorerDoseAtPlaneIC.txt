@@ -1,5 +1,5 @@
 
-includeFile = ../Configurations/ConfWithPlaneIC.txt
+includeFile = ../Configurations/MainConf.txt
 
 ##################################################### Dose at Plane AirIonChamber ####################################################
 
