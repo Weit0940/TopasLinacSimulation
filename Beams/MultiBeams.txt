@@ -37,5 +37,6 @@ s:So/ElectronSource/BeamAngularDistribution  = "None"
 s:Tf/BeamCurrent/Function    = "Step"
 dv:Tf/BeamCurrent/Times      = 10 10 20 30 40 50 60 70 80 90 100 ms
 iv:Tf/BeamCurrent/Values     = 10 1000000 1000000 1000000 1000000 1000000 1000000 1000000 1000000 1000000 1000000
+#iv:Tf/BeamCurrent/Values     = 10 10 10 10 10 10 10 10 10 10 10
 
 ic:So/ElectronSource/NumberOfHistoriesInRun  = Tf/BeamCurrent/Value
