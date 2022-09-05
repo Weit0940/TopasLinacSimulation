@@ -35,7 +35,7 @@ d:So/ElectronSource/BeamPositionSpreadY      = 0.6 mm
 s:So/ElectronSource/BeamAngularDistribution  = "None"
 
 s:Tf/BeamCurrent/Function    = "Step"
-dv:Tf/BeamCurrent/Times      = 12 10 20 30 40 50 60 70 80 90 100 110 120 ms
-iv:Tf/BeamCurrent/Values     = 12 1000000 1000000 1000000 1000000 1000000 1000000 1000000 1000000 1000000 1000000 1000000 1000000
+dv:Tf/BeamCurrent/Times      = 12 10 20 30 40 50 60 70 80 90 100 ms
+iv:Tf/BeamCurrent/Values     = 12 1000000 1000000 1000000 1000000 1000000 1000000 1000000 1000000 1000000 1000000
 
 ic:So/ElectronSource/NumberOfHistoriesInRun  = Tf/BeamCurrent/Value

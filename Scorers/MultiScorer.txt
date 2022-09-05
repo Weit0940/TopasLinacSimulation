@@ -1,5 +1,5 @@
 
-includeFile = ../Configurations/ConfNoIC.txt
+includeFile = ../Configurations/ConfWithIC.txt
 
 ###################################################### Pdd WaterPhantom #####################################################
 
@@ -13,25 +13,25 @@ i:Sc/DoseAtWaterPhantom/YBins                     = 100
 i:Sc/DoseAtWaterPhantom/ZBins                     = 100
 
 
-###################################################### Energy Fluence WaterPhantom #####################################################
-
-s:Sc/EnergyFluenceAtIsocenter/Quantity                  = "EnergyFluence"
-s:Sc/EnergyFluenceAtIsocenter/Component                 = "Isocenter"
-s:Sc/EnergyFluenceAtIsocenter/IfOutputFileAlreadyExists = "Increment"
-s:Sc/EnergyFluenceAtIsocenter/OutputType                = "Csv"
-s:Sc/EnergyFluenceAtIsocenter/OutputFile                = "EnergyFluenceAtIsocenter"
-i:Sc/EnergyFluenceAtIsocenter/XBins                     = 60
-i:Sc/EnergyFluenceAtIsocenter/YBins                     = 60
-
-
-################################################# Scorer Energy Dep Spec ###############################################
-
-s:Sc/EnergyDepSpectAtWaterPhantom/Component        = "WaterPhantom"
-s:Sc/EnergyDepSpectAtWaterPhantom/OutputFile       = "EnergyDepSpectAtWaterPhantom"
-s:Sc/EnergyDepSpectAtWaterPhantom/Quantity         = "EnergyDeposit"
-s:Sc/EnergyDepSpectAtWaterPhantom/IfOutputFileAlreadyExists = "Increment"
-s:Sc/EnergyDepSpectAtWaterPhantom/OutputType       = "Csv"
-i:Sc/EnergyDepSpectAtWaterPhantom/EBins            = 100
-d:Sc/EnergyDepSpectAtWaterPhantom/EBinMin          = 0. MeV
-d:Sc/EnergyDepSpectAtWaterPhantom/EBinMax          = 15. MeV
-#d:Sc/EnergyDepSpectAtWaterPhantom/EBinMax          = 24. MeV
+####################################################### Energy Fluence WaterPhantom #####################################################
+#
+#s:Sc/EnergyFluenceAtIsocenter/Quantity                  = "EnergyFluence"
+#s:Sc/EnergyFluenceAtIsocenter/Component                 = "Isocenter"
+#s:Sc/EnergyFluenceAtIsocenter/IfOutputFileAlreadyExists = "Increment"
+#s:Sc/EnergyFluenceAtIsocenter/OutputType                = "Csv"
+#s:Sc/EnergyFluenceAtIsocenter/OutputFile                = "EnergyFluenceAtIsocenter"
+#i:Sc/EnergyFluenceAtIsocenter/XBins                     = 60
+#i:Sc/EnergyFluenceAtIsocenter/YBins                     = 60
+#
+#
+################################################## Scorer Energy Dep Spec ###############################################
+#
+#s:Sc/EnergyDepSpectAtWaterPhantom/Component        = "WaterPhantom"
+#s:Sc/EnergyDepSpectAtWaterPhantom/OutputFile       = "EnergyDepSpectAtWaterPhantom"
+#s:Sc/EnergyDepSpectAtWaterPhantom/Quantity         = "EnergyDeposit"
+#s:Sc/EnergyDepSpectAtWaterPhantom/IfOutputFileAlreadyExists = "Increment"
+#s:Sc/EnergyDepSpectAtWaterPhantom/OutputType       = "Csv"
+#i:Sc/EnergyDepSpectAtWaterPhantom/EBins            = 100
+#d:Sc/EnergyDepSpectAtWaterPhantom/EBinMin          = 0. MeV
+#d:Sc/EnergyDepSpectAtWaterPhantom/EBinMax          = 15. MeV
+##d:Sc/EnergyDepSpectAtWaterPhantom/EBinMax          = 24. MeV

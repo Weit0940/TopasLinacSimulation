@@ -32,15 +32,15 @@ i:Ts/ShowHistoryCountAtInterval = 100000
 #includeFile = ../Components/PlaneAirIonChamber.txt
 #includeFile = ../Components/CylinderAirIonChamber.txt
 
-includeFile = ../Components/StepPlaneAirIonChamber.txt
+#includeFile = ../Components/StepPlaneAirIonChamber.txt
 #includeFile = ../Components/StepCylinderAirIonChamber.txt
 
-sv:Ph/Default/LayeredMassGeometryWorlds = 3 "PlaneAirIonChamber/Wall1" "PlaneAirIonChamber/Active" "PlaneAirIonChamber/Wall2"
+#sv:Ph/Default/LayeredMassGeometryWorlds = 3 "PlaneAirIonChamber/Wall1" "PlaneAirIonChamber/Active" "PlaneAirIonChamber/Wall2"
 #sv:Ph/Default/LayeredMassGeometryWorlds = 3 "CylAirIonChamber/Wall" "CylAirIonChamber/Active" "CylAirIonChamber/Electrode"
 
 #includeFile = ../Beams/SingleBeam.txt
 includeFile = ../Beams/MultiBeams.txt
 
 d:Tf/TimelineStart           = 0. ms
-d:Tf/TimelineEnd             = 110.0 ms
+d:Tf/TimelineEnd             = 100.0 ms
 i:Tf/NumberOfSequentialTimes = 10
