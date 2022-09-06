@@ -4,7 +4,7 @@ includeFile = ../Components/PrimaryScatterFoil.txt
 includeFile = ../Components/PrimaryCollimators.txt
 includeFile = ../Components/SecondaryCollimators.txt
 
-includeFile= ../Components/Detectors.txt
+includeFile= ../Components/AluminumDetectors.txt
 
 includeFile = ../Components/WaterPhantom.txt
 
