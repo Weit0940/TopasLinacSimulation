@@ -1,0 +1,29 @@
+includeFile = ../Parameters/SimulationParameters.txt
+
+s:Ge/AluminumDetector1/Type     = "TsBox"
+s:Ge/AluminumDetector1/Parent   = "World"
+s:Ge/AluminumDetector1/Material = "Aluminum"
+d:Ge/AluminumDetector1/HLX      = 9.0 cm
+d:Ge/AluminumDetector1/HLY      = 10.0 cm
+d:Ge/AluminumDetector1/HLZ      = 3.0 cm
+d:Ge/AluminumDetector1/TransX   = 0.0 cm
+d:Ge/AluminumDetector1/TransY   = 12.5 cm
+d:Ge/AluminumDetector1/TransZ   = 64 cm
+d:Ge/AluminumDetector1/RotX     = 0.0 deg
+d:Ge/AluminumDetector1/RotY     = 0.0 deg
+d:Ge/AluminumDetector1/RotZ     = 0.0 deg
+s:Ge/AluminumDetector1/Color    = "Grey"
+
+s:Ge/AluminumDetector2/Type     = "TsBox"
+s:Ge/AluminumDetector2/Parent   = "World"
+s:Ge/AluminumDetector2/Material = "Aluminum"
+d:Ge/AluminumDetector2/HLX      = 9.0 cm
+d:Ge/AluminumDetector2/HLY      = 10.0 cm
+d:Ge/AluminumDetector2/HLZ      = 3.0 cm
+d:Ge/AluminumDetector2/TransX   = 0.0 cm
+d:Ge/AluminumDetector2/TransY   = -12.5 cm
+d:Ge/AluminumDetector2/TransZ   = 64 cm
+d:Ge/AluminumDetector2/RotX     = 0.0 deg
+d:Ge/AluminumDetector2/RotY     = 0.0 deg
+d:Ge/AluminumDetector2/RotZ     = 0.0 deg
+s:Ge/AluminumDetector2/Color    = "Grey"

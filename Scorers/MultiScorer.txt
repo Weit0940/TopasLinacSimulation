@@ -36,126 +36,24 @@ d:Sc/EnergyDepSpectAtWaterPhantom/EBinMin          = 0. MeV
 d:Sc/EnergyDepSpectAtWaterPhantom/EBinMax          = 15. MeV
 #d:Sc/EnergyDepSpectAtWaterPhantom/EBinMax          = 24. MeV
 
-##################################################### Dose to Water at Plane AirIonChambers Upper ####################################################
+###################################################### Pdd Aluminium Detector 1 #####################################################
 
-s:Sc/DoseToWaterICU1/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICU1/Component                 = "PlaneAirIonChamber1U/Active"
-s:Sc/DoseToWaterICU1/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICU1/OutputType                = "Csv"
-s:Sc/DoseToWaterICU1/OutputFile                = "DoseToWaterICU1"
+s:Sc/DoseAtAluminumDetector1/Quantity                  = "DoseToMedium"
+s:Sc/DoseAtAluminumDetector1/Component                 = "AluminumDetector1"
+s:Sc/DoseAtAluminumDetector1/IfOutputFileAlreadyExists = "Increment"
+s:Sc/DoseAtAluminumDetector1/OutputType                = "Csv"
+s:Sc/DoseAtAluminumDetector1/OutputFile                = "DoseAtAluminumDetector1"
+i:Sc/DoseAtAluminumDetector1/XBins                     = 20
+i:Sc/DoseAtAluminumDetector1/YBins                     = 20
+i:Sc/DoseAtAluminumDetector1/ZBins                     = 20
 
-s:Sc/DoseToWaterICU2/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICU2/Component                 = "PlaneAirIonChamber2U/Active"
-s:Sc/DoseToWaterICU2/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICU2/OutputType                = "Csv"
-s:Sc/DoseToWaterICU2/OutputFile                = "DoseToWaterICU2"
+###################################################### Pdd Aluminium Detector 2 #####################################################
 
-s:Sc/DoseToWaterICU3/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICU3/Component                 = "PlaneAirIonChamber3U/Active"
-s:Sc/DoseToWaterICU3/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICU3/OutputType                = "Csv"
-s:Sc/DoseToWaterICU3/OutputFile                = "DoseToWaterICU3"
-
-s:Sc/DoseToWaterICU4/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICU4/Component                 = "PlaneAirIonChamber4U/Active"
-s:Sc/DoseToWaterICU4/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICU4/OutputType                = "Csv"
-s:Sc/DoseToWaterICU4/OutputFile                = "DoseToWaterICU4"
-
-s:Sc/DoseToWaterICU5/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICU5/Component                 = "PlaneAirIonChamber5U/Active"
-s:Sc/DoseToWaterICU5/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICU5/OutputType                = "Csv"
-s:Sc/DoseToWaterICU5/OutputFile                = "DoseToWaterICU5"
-
-s:Sc/DoseToWaterICU6/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICU6/Component                 = "PlaneAirIonChamber6U/Active"
-s:Sc/DoseToWaterICU6/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICU6/OutputType                = "Csv"
-s:Sc/DoseToWaterICU6/OutputFile                = "DoseToWaterICU6"
-
-s:Sc/DoseToWaterICU7/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICU7/Component                 = "PlaneAirIonChamber7U/Active"
-s:Sc/DoseToWaterICU7/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICU7/OutputType                = "Csv"
-s:Sc/DoseToWaterICU7/OutputFile                = "DoseToWaterICU7"
-
-s:Sc/DoseToWaterICU8/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICU8/Component                 = "PlaneAirIonChamber8U/Active"
-s:Sc/DoseToWaterICU8/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICU8/OutputType                = "Csv"
-s:Sc/DoseToWaterICU8/OutputFile                = "DoseToWaterICU8"
-
-s:Sc/DoseToWaterICU9/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICU9/Component                 = "PlaneAirIonChamber9U/Active"
-s:Sc/DoseToWaterICU9/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICU9/OutputType                = "Csv"
-s:Sc/DoseToWaterICU9/OutputFile                = "DoseToWaterICU9"
-
-s:Sc/DoseToWaterICU10/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICU10/Component                 = "PlaneAirIonChamber10U/Active"
-s:Sc/DoseToWaterICU10/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICU10/OutputType                = "Csv"
-s:Sc/DoseToWaterICU10/OutputFile                = "DoseToWaterICU10"
-
-##################################################### Dose to Water at Plane AirIonChambers Down ####################################################
-
-s:Sc/DoseToWaterICD1/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICD1/Component                 = "PlaneAirIonChamber1D/Active"
-s:Sc/DoseToWaterICD1/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICD1/OutputType                = "Csv"
-s:Sc/DoseToWaterICD1/OutputFile                = "DoseToWaterICD1"
-
-s:Sc/DoseToWaterICD2/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICD2/Component                 = "PlaneAirIonChamberD2/Active"
-s:Sc/DoseToWaterICD2/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICD2/OutputType                = "Csv"
-s:Sc/DoseToWaterICD2/OutputFile                = "DoseToWaterICD2"
-
-s:Sc/DoseToWaterICD3/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICD3/Component                 = "PlaneAirIonChamberD3/Active"
-s:Sc/DoseToWaterICD3/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICD3/OutputType                = "Csv"
-s:Sc/DoseToWaterICD3/OutputFile                = "DoseToWaterICD3"
-
-s:Sc/DoseToWaterICD4/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICD4/Component                 = "PlaneAirIonChamberD4/Active"
-s:Sc/DoseToWaterICD4/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICD4/OutputType                = "Csv"
-s:Sc/DoseToWaterICD4/OutputFile                = "DoseToWaterICD4"
-
-s:Sc/DoseToWaterICD5/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICD5/Component                 = "PlaneAirIonChamberD5/Active"
-s:Sc/DoseToWaterICD5/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICD5/OutputType                = "Csv"
-s:Sc/DoseToWaterICD5/OutputFile                = "DoseToWaterICD5"
-
-s:Sc/DoseToWaterICD6/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICD6/Component                 = "PlaneAirIonChamberD6/Active"
-s:Sc/DoseToWaterICD6/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICD6/OutputType                = "Csv"
-s:Sc/DoseToWaterICD6/OutputFile                = "DoseToWaterICD6"
-
-s:Sc/DoseToWaterICD7/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICD7/Component                 = "PlaneAirIonChamberD7/Active"
-s:Sc/DoseToWaterICD7/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICD7/OutputType                = "Csv"
-s:Sc/DoseToWaterICD7/OutputFile                = "DoseToWaterICD7"
-
-s:Sc/DoseToWaterICD8/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICD8/Component                 = "PlaneAirIonChamberD8/Active"
-s:Sc/DoseToWaterICD8/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICD8/OutputType                = "Csv"
-s:Sc/DoseToWaterICD8/OutputFile                = "DoseToWaterICD8"
-
-s:Sc/DoseToWaterICD9/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICD9/Component                 = "PlaneAirIonChamberD9/Active"
-s:Sc/DoseToWaterICD9/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICD9/OutputType                = "Csv"
-s:Sc/DoseToWaterICD9/OutputFile                = "DoseToWaterICD9"
-
-s:Sc/DoseToWaterICD10/Quantity                  = "DoseToWater"
-s:Sc/DoseToWaterICD10/Component                 = "PlaneAirIonChamberD10/Active"
-s:Sc/DoseToWaterICD10/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseToWaterICD10/OutputType                = "Csv"
-s:Sc/DoseToWaterICD10/OutputFile                = "DoseToWaterICD10"
+s:Sc/DoseAtAluminumDetector2/Quantity                  = "DoseToMedium"
+s:Sc/DoseAtAluminumDetector2/Component                 = "AluminumDetector2"
+s:Sc/DoseAtAluminumDetector2/IfOutputFileAlreadyExists = "Increment"
+s:Sc/DoseAtAluminumDetector2/OutputType                = "Csv"
+s:Sc/DoseAtAluminumDetector2/OutputFile                = "DoseAtAluminumDetector2"
+i:Sc/DoseAtAluminumDetector2/XBins                     = 20
+i:Sc/DoseAtAluminumDetector2/YBins                     = 20
+i:Sc/DoseAtAluminumDetector2/ZBins                     = 20
