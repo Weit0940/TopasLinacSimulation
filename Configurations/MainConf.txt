@@ -4,6 +4,8 @@ includeFile = ../Components/PrimaryScatterFoil.txt
 includeFile = ../Components/PrimaryCollimators.txt
 includeFile = ../Components/SecondaryCollimators.txt
 
+includeFile= ../Components/IonsChambersArray.txt
+
 includeFile = ../Components/WaterPhantom.txt
 
 includeFile = ../Parameters/SimulationParameters.txt
@@ -50,9 +52,9 @@ i:Ts/ShowHistoryCountAtInterval = 100000
 #sv:Ph/Default/LayeredMassGeometryWorlds = 3 "PlaneAirIonChamber/Wall1" "PlaneAirIonChamber/Active" "PlaneAirIonChamber/Wall2"
 #sv:Ph/Default/LayeredMassGeometryWorlds = 3 "CylAirIonChamber/Wall" "CylAirIonChamber/Active" "CylAirIonChamber/Electrode"
 
-#includeFile = ../Beams/SingleBeam.txt
-includeFile = ../Beams/MultiBeams.txt
+includeFile = ../Beams/SingleBeam.txt
+#includeFile = ../Beams/MultiBeams.txt
 
-d:Tf/TimelineStart           = 0. ms
-d:Tf/TimelineEnd             = 100.0 ms
-i:Tf/NumberOfSequentialTimes = 10
+#d:Tf/TimelineStart           = 0. ms
+#d:Tf/TimelineEnd             = 100.0 ms
+#i:Tf/NumberOfSequentialTimes = 10
