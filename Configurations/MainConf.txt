@@ -1,10 +1,10 @@
 includeFile = ../Components/VacuumTube.txt
-includeFile = ../Components/PrimaryScatterFoil.txt
+#includeFile = ../Components/PrimaryScatterFoil.txt
 
 includeFile = ../Components/PrimaryCollimators.txt
 includeFile = ../Components/SecondaryCollimators.txt
 
-includeFile= ../Components/AluminumDetectors.txt
+#includeFile= ../Components/AluminumDetectors.txt
 
 includeFile = ../Components/WaterPhantom.txt
 

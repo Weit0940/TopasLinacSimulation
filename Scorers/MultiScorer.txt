@@ -35,25 +35,3 @@ i:Sc/EnergyDepSpectAtWaterPhantom/EBins            = 100
 d:Sc/EnergyDepSpectAtWaterPhantom/EBinMin          = 0. MeV
 d:Sc/EnergyDepSpectAtWaterPhantom/EBinMax          = 15. MeV
 #d:Sc/EnergyDepSpectAtWaterPhantom/EBinMax          = 24. MeV
-
-###################################################### Pdd Aluminium Detector 1 #####################################################
-
-s:Sc/DoseAtAluminumDetector1/Quantity                  = "DoseToMedium"
-s:Sc/DoseAtAluminumDetector1/Component                 = "AluminumDetector1"
-s:Sc/DoseAtAluminumDetector1/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseAtAluminumDetector1/OutputType                = "Csv"
-s:Sc/DoseAtAluminumDetector1/OutputFile                = "DoseAtAluminumDetector1"
-i:Sc/DoseAtAluminumDetector1/XBins                     = 20
-i:Sc/DoseAtAluminumDetector1/YBins                     = 20
-i:Sc/DoseAtAluminumDetector1/ZBins                     = 20
-
-###################################################### Pdd Aluminium Detector 2 #####################################################
-
-s:Sc/DoseAtAluminumDetector2/Quantity                  = "DoseToMedium"
-s:Sc/DoseAtAluminumDetector2/Component                 = "AluminumDetector2"
-s:Sc/DoseAtAluminumDetector2/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseAtAluminumDetector2/OutputType                = "Csv"
-s:Sc/DoseAtAluminumDetector2/OutputFile                = "DoseAtAluminumDetector2"
-i:Sc/DoseAtAluminumDetector2/XBins                     = 20
-i:Sc/DoseAtAluminumDetector2/YBins                     = 20
-i:Sc/DoseAtAluminumDetector2/ZBins                     = 20
