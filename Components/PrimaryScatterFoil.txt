@@ -11,6 +11,6 @@ d:Ge/ScatterFoil/HLX      = 10.0 cm
 d:Ge/ScatterFoil/HLY      = 10.0 cm
 d:Ge/ScatterFoil/HLZ      = 0.0005 cm
 
-d:Ge/ScatterFoil/TransZ   = Ge/SAD - 1.0005 cm
+d:Ge/ScatterFoil/TransZ   = Ge/SAD - 11.0005 cm
 
 s:Ge/ScatterFoil/Color = "Yellow"
