@@ -70,8 +70,8 @@ i:Sc/EnergyFluenceAtWPY/YBins                     = 60
 ################################################# Scorer Energy Fluence ###############################################
 
 s:Sc/EnergyDepSpectAtWaterPhantom/Component                 = "WaterPhantom"
-s:Sc/EnergyDepSpectAtWaterPhantom/OutputFile                = "EnergyDepSpectAtWaterPhantom"
-s:Sc/EnergyDepSpectAtWaterPhantom/Quantity                  = "EnergyDeposit"
+s:Sc/EnergyDepSpectAtWaterPhantom/OutputFile                = "FluenceAtWaterPhantom"
+s:Sc/EnergyDepSpectAtWaterPhantom/Quantity                  = "Fluence"
 s:Sc/EnergyDepSpectAtWaterPhantom/IfOutputFileAlreadyExists = "Increment"
 s:Sc/EnergyDepSpectAtWaterPhantom/OutputType                = "Csv"
 i:Sc/EnergyDepSpectAtWaterPhantom/EBins                     = 100
