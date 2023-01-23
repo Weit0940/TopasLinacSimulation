@@ -3,35 +3,99 @@ includeFile = ../Configurations/MainConf.txt
 
 ###################################################### Pdd WaterPhantom #####################################################
 
-s:Sc/DoseAtWaterPhantom/Quantity                  = "DoseToMedium"
-s:Sc/DoseAtWaterPhantom/Component                 = "WaterPhantom"
-s:Sc/DoseAtWaterPhantom/IfOutputFileAlreadyExists = "Increment"
-s:Sc/DoseAtWaterPhantom/OutputType                = "Csv"
-s:Sc/DoseAtWaterPhantom/OutputFile                = "DoseAtWaterPhantom"
-i:Sc/DoseAtWaterPhantom/XBins                     = 100
-i:Sc/DoseAtWaterPhantom/YBins                     = 100
-i:Sc/DoseAtWaterPhantom/ZBins                     = 100
+s:Sc/DoseAtWaterPhantomZ/Quantity                  = "DoseToMedium"
+s:Sc/DoseAtWaterPhantomZ/Component                 = "WaterPhantom"
+s:Sc/DoseAtWaterPhantomZ/IfOutputFileAlreadyExists = "Increment"
+s:Sc/DoseAtWaterPhantomZ/OutputType                = "Csv"
+s:Sc/DoseAtWaterPhantomZ/OutputFile                = "DoseAtWaterPhantomZ"
+i:Sc/DoseAtWaterPhantomZ/ZBins                     = 100
+
+###################################################### Dose Profile X WaterPhantom #####################################################
+
+s:Sc/DoseAtWaterPhantomX/Quantity                  = "DoseToMedium"
+s:Sc/DoseAtWaterPhantomX/Component                 = "WaterPhantom"
+s:Sc/DoseAtWaterPhantomX/IfOutputFileAlreadyExists = "Increment"
+s:Sc/DoseAtWaterPhantomX/OutputType                = "Csv"
+s:Sc/DoseAtWaterPhantomX/OutputFile                = "DoseAtWaterPhantomX"
+i:Sc/DoseAtWaterPhantomX/XBins                     = 100
+
+###################################################### Dose Profile Y WaterPhantom #####################################################
+
+s:Sc/DoseAtWaterPhantomY/Quantity                  = "DoseToMedium"
+s:Sc/DoseAtWaterPhantomY/Component                 = "WaterPhantom"
+s:Sc/DoseAtWaterPhantomY/IfOutputFileAlreadyExists = "Increment"
+s:Sc/DoseAtWaterPhantomY/OutputType                = "Csv"
+s:Sc/DoseAtWaterPhantomY/OutputFile                = "DoseAtWaterPhantomY"
+i:Sc/DoseAtWaterPhantomY/YBins                     = 100
+
+###################################################### Energy Fluence X WaterPhantom #####################################################
+
+s:Sc/EnergyFluenceAtIsocenterX/Quantity                  = "EnergyFluence"
+s:Sc/EnergyFluenceAtIsocenterX/Component                 = "Isocenter"
+s:Sc/EnergyFluenceAtIsocenterX/IfOutputFileAlreadyExists = "Increment"
+s:Sc/EnergyFluenceAtIsocenterX/OutputType                = "Csv"
+s:Sc/EnergyFluenceAtIsocenterX/OutputFile                = "EnergyFluenceAtIsocenterX"
+i:Sc/EnergyFluenceAtIsocenterX/XBins                     = 60
 
 
-###################################################### Energy Fluence WaterPhantom #####################################################
+###################################################### Energy Fluence Y WaterPhantom #####################################################
 
-s:Sc/EnergyFluenceAtIsocenter/Quantity                  = "EnergyFluence"
-s:Sc/EnergyFluenceAtIsocenter/Component                 = "Isocenter"
-s:Sc/EnergyFluenceAtIsocenter/IfOutputFileAlreadyExists = "Increment"
-s:Sc/EnergyFluenceAtIsocenter/OutputType                = "Csv"
-s:Sc/EnergyFluenceAtIsocenter/OutputFile                = "EnergyFluenceAtIsocenter"
-i:Sc/EnergyFluenceAtIsocenter/XBins                     = 60
-i:Sc/EnergyFluenceAtIsocenter/YBins                     = 60
+s:Sc/EnergyFluenceAtIsocenterY/Quantity                  = "EnergyFluence"
+s:Sc/EnergyFluenceAtIsocenterY/Component                 = "Isocenter"
+s:Sc/EnergyFluenceAtIsocenterY/IfOutputFileAlreadyExists = "Increment"
+s:Sc/EnergyFluenceAtIsocenterY/OutputType                = "Csv"
+s:Sc/EnergyFluenceAtIsocenterY/OutputFile                = "EnergyFluenceAtIsocenterY"
+i:Sc/EnergyFluenceAtIsocenterY/YBins                     = 60
+
+###################################################### Energy Fluence X WaterPhantom #####################################################
+
+s:Sc/EnergyFluenceAtWPX/Quantity                  = "EnergyFluence"
+s:Sc/EnergyFluenceAtWPX/Component                 = "Isocenter"
+s:Sc/EnergyFluenceAtWPX/IfOutputFileAlreadyExists = "Increment"
+s:Sc/EnergyFluenceAtWPX/OutputType                = "Csv"
+s:Sc/EnergyFluenceAtWPX/OutputFile                = "EnergyFluenceAtWPX"
+i:Sc/EnergyFluenceAtWPX/XBins                     = 60
 
 
-################################################# Scorer Energy Dep Spec ###############################################
+###################################################### Energy Fluence Y WaterPhantom #####################################################
 
-s:Sc/EnergyDepSpectAtWaterPhantom/Component        = "WaterPhantom"
-s:Sc/EnergyDepSpectAtWaterPhantom/OutputFile       = "EnergyDepSpectAtWaterPhantom"
-s:Sc/EnergyDepSpectAtWaterPhantom/Quantity         = "EnergyDeposit"
+s:Sc/EnergyFluenceAtWPY/Quantity                  = "EnergyFluence"
+s:Sc/EnergyFluenceAtWPY/Component                 = "Isocenter"
+s:Sc/EnergyFluenceAtWPY/IfOutputFileAlreadyExists = "Increment"
+s:Sc/EnergyFluenceAtWPY/OutputType                = "Csv"
+s:Sc/EnergyFluenceAtWPY/OutputFile                = "EnergyFluenceAtWPY"
+i:Sc/EnergyFluenceAtWPY/YBins                     = 60
+
+
+################################################# Scorer Energy Fluence ###############################################
+
+s:Sc/EnergyDepSpectAtWaterPhantom/Component                 = "WaterPhantom"
+s:Sc/EnergyDepSpectAtWaterPhantom/OutputFile                = "EnergyDepSpectAtWaterPhantom"
+s:Sc/EnergyDepSpectAtWaterPhantom/Quantity                  = "EnergyDeposit"
 s:Sc/EnergyDepSpectAtWaterPhantom/IfOutputFileAlreadyExists = "Increment"
-s:Sc/EnergyDepSpectAtWaterPhantom/OutputType       = "Csv"
-i:Sc/EnergyDepSpectAtWaterPhantom/EBins            = 100
-d:Sc/EnergyDepSpectAtWaterPhantom/EBinMin          = 0. MeV
-d:Sc/EnergyDepSpectAtWaterPhantom/EBinMax          = 15. MeV
-#d:Sc/EnergyDepSpectAtWaterPhantom/EBinMax          = 24. MeV
+s:Sc/EnergyDepSpectAtWaterPhantom/OutputType                = "Csv"
+i:Sc/EnergyDepSpectAtWaterPhantom/EBins                     = 100
+d:Sc/EnergyDepSpectAtWaterPhantom/EBinMin                   = 0. MeV
+d:Sc/EnergyDepSpectAtWaterPhantom/EBinMax                   = 15. MeV
+
+################################################# Scorer Fluence ###############################################
+
+s:Sc/EnergyFlunceAtWaterPhantom/Component                 = "WaterPhantom"
+s:Sc/EnergyFlunceAtWaterPhantom/OutputFile                = "EnergyFluenceAtWaterPhantom"
+s:Sc/EnergyFlunceAtWaterPhantom/Quantity                  = "EnergyFluence"
+s:Sc/EnergyFlunceAtWaterPhantom/IfOutputFileAlreadyExists = "Increment"
+s:Sc/EnergyFlunceAtWaterPhantom/OutputType                = "Csv"
+i:Sc/EnergyFlunceAtWaterPhantom/EBins                     = 100
+d:Sc/EnergyFlunceAtWaterPhantom/EBinMin                   = 0. MeV
+d:Sc/EnergyFlunceAtWaterPhantom/EBinMax                   = 15. MeV
+
+################################################# Scorer Energy Dep ###############################################
+
+s:Sc/EnergyDepAtWaterPhantom/Component                 = "WaterPhantom"
+s:Sc/EnergyDepAtWaterPhantom/OutputFile                = "EnergyDepAtWaterPhantom"
+s:Sc/EnergyDepAtWaterPhantom/Quantity                  = "EnergyDeposit"
+s:Sc/EnergyDepAtWaterPhantom/IfOutputFileAlreadyExists = "Increment"
+s:Sc/EnergyDepAtWaterPhantom/OutputType                = "Csv"
+i:Sc/EnergyDepAtWaterPhantom/EBins                     = 100
+d:Sc/EnergyDepAtWaterPhantom/EBinMin                   = 0. MeV
+d:Sc/EnergyDepAtWaterPhantom/EBinMax                   = 15. MeV

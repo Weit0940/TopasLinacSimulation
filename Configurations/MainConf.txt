@@ -1,17 +1,18 @@
 includeFile = ../Components/VacuumTube.txt
+
 includeFile = ../Components/PrimaryScatterFoil.txt
 
 includeFile = ../Components/PrimaryCollimators.txt
 
-includeFile = ../Components/MonitorIonCHambers.txt
-includeFile = ../Components/FlatteningFilter.txt
+includeFile = ../Components/MonitorIonChambers.txt
 
 includeFile = ../Components/SecondaryCollimators.txt
 
 includeFile = ../Components/WaterPhantom.txt
 
 includeFile = ../Parameters/SimulationParameters.txt
-includeFile = ../Parameters/GraphicsParameters.txt
+
+#includeFile = ../Parameters/GraphicsParameters.txt
 
 ########################################################## Create World #######################################################
 

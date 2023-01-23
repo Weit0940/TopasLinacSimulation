@@ -7,11 +7,11 @@ s:Ge/PrimaryCollimators/Type           = "TsJaws"
 s:Ge/PrimaryCollimators/Material       = "G4_W"
 s:Ge/PrimaryCollimators/JawTravelAxis  = "X"
 
-dc:Ge/PrimaryCollimators/PositiveFieldSetting  = 2.5 cm
-dc:Ge/PrimaryCollimators/NegativeFieldSetting  = -2.5 cm
+dc:Ge/PrimaryCollimators/PositiveFieldSetting  = 1 cm
+dc:Ge/PrimaryCollimators/NegativeFieldSetting  = -1 cm
 
 d:Ge/PrimaryCollimators/SAD        	= Ge/SAD cm
-dc:Ge/PrimaryCollimators/SourceToUpstreamSurfaceDistance = Ge/SAD - 80.0 cm   #Distance from beam's source to jaw 
+dc:Ge/PrimaryCollimators/SourceToUpstreamSurfaceDistance = Ge/SAD - 85.0 cm   #Distance from beam's source to jaw 
 
 d:Ge/PrimaryCollimators/LX             = 20.0 cm  
 d:Ge/PrimaryCollimators/LY             = 18.0 cm 
