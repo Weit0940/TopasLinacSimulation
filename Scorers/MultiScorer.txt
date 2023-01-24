@@ -17,7 +17,7 @@ s:Sc/DoseAtWaterPhantomX/Component                 = "WaterPhantom"
 s:Sc/DoseAtWaterPhantomX/IfOutputFileAlreadyExists = "Increment"
 s:Sc/DoseAtWaterPhantomX/OutputType                = "Csv"
 s:Sc/DoseAtWaterPhantomX/OutputFile                = "DoseAtWaterPhantomX"
-i:Sc/DoseAtWaterPhantomX/XBins                     = 100
+i:Sc/DoseAtWaterPhantomX/XBins                     = 40
 
 ###################################################### Dose Profile Y WaterPhantom #####################################################
 
@@ -26,26 +26,26 @@ s:Sc/DoseAtWaterPhantomY/Component                 = "WaterPhantom"
 s:Sc/DoseAtWaterPhantomY/IfOutputFileAlreadyExists = "Increment"
 s:Sc/DoseAtWaterPhantomY/OutputType                = "Csv"
 s:Sc/DoseAtWaterPhantomY/OutputFile                = "DoseAtWaterPhantomY"
-i:Sc/DoseAtWaterPhantomY/YBins                     = 100
+i:Sc/DoseAtWaterPhantomY/YBins                     = 40
 
 ###################################################### Energy Fluence X WaterPhantom #####################################################
 
 s:Sc/EnergyFluenceAtIsocenterX/Quantity                  = "EnergyFluence"
-s:Sc/EnergyFluenceAtIsocenterX/Component                 = "Isocenter"
+s:Sc/EnergyFluenceAtIsocenterX/Component                 = "WaterPhantom"
 s:Sc/EnergyFluenceAtIsocenterX/IfOutputFileAlreadyExists = "Increment"
 s:Sc/EnergyFluenceAtIsocenterX/OutputType                = "Csv"
 s:Sc/EnergyFluenceAtIsocenterX/OutputFile                = "EnergyFluenceAtIsocenterX"
-i:Sc/EnergyFluenceAtIsocenterX/XBins                     = 60
+i:Sc/EnergyFluenceAtIsocenterX/XBins                     = 40
 
 
 ###################################################### Energy Fluence Y WaterPhantom #####################################################
 
 s:Sc/EnergyFluenceAtIsocenterY/Quantity                  = "EnergyFluence"
-s:Sc/EnergyFluenceAtIsocenterY/Component                 = "Isocenter"
+s:Sc/EnergyFluenceAtIsocenterY/Component                 = "WaterPhantom"
 s:Sc/EnergyFluenceAtIsocenterY/IfOutputFileAlreadyExists = "Increment"
 s:Sc/EnergyFluenceAtIsocenterY/OutputType                = "Csv"
 s:Sc/EnergyFluenceAtIsocenterY/OutputFile                = "EnergyFluenceAtIsocenterY"
-i:Sc/EnergyFluenceAtIsocenterY/YBins                     = 60
+i:Sc/EnergyFluenceAtIsocenterY/YBins                     = 40
 
 ###################################################### Energy Fluence X WaterPhantom #####################################################
 
