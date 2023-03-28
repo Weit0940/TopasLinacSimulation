@@ -20,7 +20,7 @@ s:Ge/World/Material         = "Air"
 d:Ge/World/HLX              = 1.1 m
 d:Ge/World/HLY              = 1.1 m
 d:Ge/World/HLZ              = 1.1 m
-b:Ge/World/Invisible        = "False"
+b:Ge/World/Invisible        = "True"
 
 s:Ge/Isocenter/Parent = "World"
 s:Ge/Isocenter/Type   = "TsBox"
@@ -50,14 +50,14 @@ i:Ts/ShowHistoryCountAtInterval = 100000
 #includeFile = ../Components/CylinderAirIonChamber.txt
 
 #includeFile = ../Components/StepPlaneAirIonChamber.txt
-#includeFile = ../Components/StepCylinderAirIonChamber.txt
+includeFile = ../Components/StepCylinderAirIonChamber.txt
 
 #sv:Ph/Default/LayeredMassGeometryWorlds = 3 "PlaneAirIonChamber/Wall1" "PlaneAirIonChamber/Active" "PlaneAirIonChamber/Wall2"
-#sv:Ph/Default/LayeredMassGeometryWorlds = 3 "CylAirIonChamber/Wall" "CylAirIonChamber/Active" "CylAirIonChamber/Electrode"
+sv:Ph/Default/LayeredMassGeometryWorlds = 3 "CylAirIonChamber/Wall" "CylAirIonChamber/Active" "CylAirIonChamber/Electrode"
 
-includeFile = ../Beams/SingleBeam.txt
-#includeFile = ../Beams/MultiBeams.txt
+#includeFile = ../Beams/SingleBeam.txt
+includeFile = ../Beams/MultiBeams.txt
 
-#d:Tf/TimelineStart           = 0. ms
-#d:Tf/TimelineEnd             = 100.0 ms
-#i:Tf/NumberOfSequentialTimes = 10
+d:Tf/TimelineStart           = 0. ms
+d:Tf/TimelineEnd             = 100.0 ms
+i:Tf/NumberOfSequentialTimes = 10
